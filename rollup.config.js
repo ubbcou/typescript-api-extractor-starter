@@ -19,7 +19,6 @@ export default {
       tsconfigOverride: {
         compilerOptions: {
           declaration: true,
-          rootDir: path.resolve(__dirname),
         },
       },
     }),

@@ -1,7 +1,10 @@
 import { ref } from 'vue';
-export function useTmp() {
+
+function useTmp() {
     const bl = ref(false);
     return {
         bl
     };
 }
+
+export { useTmp };

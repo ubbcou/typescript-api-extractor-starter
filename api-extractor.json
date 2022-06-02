@@ -1,10 +1,10 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json",
-  "mainEntryPointFilePath": "./dist/src/index.d.ts",
+  "mainEntryPointFilePath": "./dist/index.d.ts",
   "bundledPackages": ["vue"],
   "apiReport": {
     "enabled": true,
-    "reportFolder": "<projectFolder>/temp/"
+    "reportFolder": "temp"
   },
 
   "docModel": {

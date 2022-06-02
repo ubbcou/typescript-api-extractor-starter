@@ -1,5 +1,6 @@
 const { Extractor, ExtractorConfig } = require('@microsoft/api-extractor')
 const path = require('path')
+const fs = require('fs-extra')
 
 // generate index.d.ts
 async function generateDTS() {

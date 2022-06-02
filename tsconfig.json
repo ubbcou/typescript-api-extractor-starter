@@ -16,7 +16,7 @@
     "removeComments": false,
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
-    "rootDir": "./src",
+    "rootDir": ".",
     "declaration": true,
     "skipLibCheck": true
   },

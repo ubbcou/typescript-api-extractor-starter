@@ -1,10 +1,14 @@
 import { ref } from 'vue';
 
-function useTmp() {
+function createHash() {
+    return Math.random().toString(36).substring(2);
+}
+
+function useBl() {
     const bl = ref(false);
     return {
         bl
     };
 }
 
-export { useTmp };
+export { createHash, useBl };

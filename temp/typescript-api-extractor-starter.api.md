@@ -7,7 +7,10 @@
 import { Ref } from '@vue/runtime-dom';
 
 // @public (undocumented)
-export function useTmp(): {
+export function createHash(): string;
+
+// @public (undocumented)
+export function useBl(): {
     bl: Ref<boolean>;
 };
 
